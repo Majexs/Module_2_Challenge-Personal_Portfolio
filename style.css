@@ -145,7 +145,7 @@
   .page-section {
     flex: 1;
     margin: 25px 0;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -158,12 +158,12 @@
     text-align: right;
     padding-right: 15px;
     border-right: 4px solid var(--primary);
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 1.1;
   }
   
   .page-section > div {
-    flex: 0 0 77%;
+    flex: 0 0 75%;
   }
   
   .page-section p {
@@ -211,10 +211,35 @@
   
   .flex-item h3 {
     font-size: 1.6rem;
+    color: var(--light)
+  }
+
+  .flex-item h2 {
+    color: var(--light)
+  }
+
+  #SwanCon {
+    background-image: url(Cult_of_James.png);
+  }
+
+  #Study-Guide {
+    background-image: url(Study_Guide.png);
+  }
+
+  #Placeholder1 {
+    background-image: url(Coming_Soon.webp);
+  }
+
+  #Placeholder2 {
+    background-image: url(Coming_Soon.webp);
+  }
+
+  #Placeholder3 {
+    background-image: url(Coming_Soon.webp);
   }
   
   .contact {
-    color: var(--secondary)
+    color: var(--secondary);
   }
 
   .contact address {
