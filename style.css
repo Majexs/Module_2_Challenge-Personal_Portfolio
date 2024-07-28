@@ -217,26 +217,6 @@
   .flex-item h2 {
     color: var(--light)
   }
-
-  #SwanCon {
-    background-image: url(Cult_of_James.png);
-  }
-
-  #Study-Guide {
-    background-image: url(Study_Guide.png);
-  }
-
-  #Placeholder1 {
-    background-image: url(Coming_Soon.webp);
-  }
-
-  #Placeholder2 {
-    background-image: url(Coming_Soon.webp);
-  }
-
-  #Placeholder3 {
-    background-image: url(Coming_Soon.webp);
-  }
   
   .contact {
     color: var(--secondary);
@@ -273,23 +253,23 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-    
+    background-image: url(Cult_of_James.png);
   }
   
   .led-wall {
-    
+    background-image: url(Study_Guide.png);
   }
   
   .react-calc {
-    
+    background-image: url(Coming_Soon.webp);
   }
   
   .pastel-puzzles {
-    
+    background-image: url(Coming_Soon.webp);
   }
   
   .surf-report {
-    
+    background-image: url(Coming_Soon.webp);
   }
   
   /* media queries */
@@ -329,4 +309,21 @@
   }
   
   /* TODO: add media query for a max-width of 768px */
-  
+  @media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+
+    aside {
+      width: 100%;
+    }
+    
+    .flex-item {
+      flex-basis: 100%;
+    }
+
+    .flex-item:first-child {
+      min-height: 150px;
+      max-height: 150px;
+  }
+}
